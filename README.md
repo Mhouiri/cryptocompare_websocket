@@ -15,3 +15,22 @@
 
 This project is based on a technical test 
 [requirments](https://github.com/Mhouiri/cryptocompare_websocket/blob/main/docs/SoftwareEngineerTest.pdf) for a Software Engineer position at IHC. 
+
+## Prerequisite
+
+```bash
+1 - Express
+2 - Git
+```
+
+## Installation for development
+
+1 - Clone the project repository
+```bash
+$ https://github.com/Mhouiri/cryptocompare_websocket
+```
+
+2 - Copy the environement variables for the gateway
+```bash
+$ cp .env-example .env
+```
