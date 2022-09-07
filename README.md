@@ -39,3 +39,14 @@ $ cp .env-example .env
 ```bash
 $ https://www.cryptocompare.com/cryptopian/api-keys
 ```
+
+## Running the app
+
+1 - Start the server
+```bash
+$ nodemon server.js
+```
+
+## Using the API
+You can access the API on port 3000 <br/>
+To send an email you need postman or curl (any other tool)<br/>
