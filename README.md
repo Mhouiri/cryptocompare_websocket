@@ -34,3 +34,8 @@ $ https://github.com/Mhouiri/cryptocompare_websocket
 ```bash
 $ cp .env-example .env
 ```
+
+3 - Register and create an ApiKey to connect the app with CryptoCompare websocket
+```bash
+$ https://www.cryptocompare.com/cryptopian/api-keys
+```
