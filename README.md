@@ -30,7 +30,7 @@ This project is based on a technical test
 $ https://github.com/Mhouiri/cryptocompare_websocket
 ```
 
-2 - Copy the environement variables for the gateway
+2 - Copy and fill the environement variables 
 ```bash
 $ cp .env-example .env
 ```
