@@ -49,4 +49,76 @@ $ nodemon server.js
 
 ## Using the API
 You can access the API on port 3000 <br/>
-To send an email you need postman or curl (any other tool)<br/>
+1 - Send a post request to the following route using some API platform (Postman ) 
+```bash
+$ http://localhost:3000/currencyData
+```
+2 - response exemple
+```bash
+$ [
+    {
+        "currency": "BTC",
+        "price": {
+            "usd": "18768.34",
+            "gbp": "16345.56"
+        },
+        "highHour": {
+            "usd": "18769.89",
+            "gbp": "16349.1"
+        },
+        "lowHour": {
+            "usd": "18712.12",
+            "gbp": "16311.13"
+        },
+        "openHour": {
+            "usd": "18769.89",
+            "gbp": "16349.1"
+        },
+        "closeHour": {
+            "usd": "18768.34",
+            "gbp": "16345.56"
+        }
+    },
+    {
+        "currency": "ETH",
+        "price": {
+            "gbp": "1320.01",
+            "usd": "1516.68"
+        },
+        "highHour": {
+            "gbp": "1320.69",
+            "usd": "1516.76"
+        },
+        "lowHour": {
+            "gbp": "1315.29",
+            "usd": "1507.7"
+        },
+        "openHour": {
+            "gbp": "1320.69",
+            "usd": "1516.76"
+        },
+        "closeHour": {
+            "gbp": "1320.01",
+            "usd": "1516.68"
+        }
+    },
+    {
+        "currency": "BSC",
+        "price": {
+            "usd": "0.00185005"
+        },
+        "highHour": {
+            "usd": "0.00185005"
+        },
+        "lowHour": {
+            "usd": "0.00185"
+        },
+        "openHour": {
+            "usd": "0.00185005"
+        },
+        "closeHour": {
+            "usd": "0.00185005"
+        }
+    }
+]
+```
